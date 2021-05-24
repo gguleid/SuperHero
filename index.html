@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,42 @@
     <!-- local css -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- local js -->
     <script defer src="./js/script.js"></script>
     <title>Comicbook database</title>
 </head>
+
 <body>
     <header>
         <h1>Comic Characters</h1>
+        <form>
+            <input id="search" type="text" placeholder="Character Name">
+            <button id="getInfoBtn">Enter</button>
+        </form>
     </header>
     <main>
-
+        <div class="character-info">
+            <h2>Biography</h2>
+            <h4>Name:</h4> <!-- this is the superhero name -->
+            <p id="name"></p>
+            <h4>Full name:</h4>
+            <p id="full-name"></p>
+            <h4>Alter Ego:</h4>
+            <p id="alter-egos"></p>
+            <h4>Publisher:</h4>
+            <p id="publisher"></p>
+        </div>
+        <div class="picture">
+            <img id="image" src="" alt="">
+        </div>
     </main>
-    
+
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
