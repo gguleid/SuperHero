@@ -11,30 +11,30 @@ form {
 
 .container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     background-color: #64B9E0;
-    
+    overflow: hidden;
 }
 
 .character-info {
-    flex: 1;
-    order: 2;
+    
+    margin: 100px;
+    width: auto;
+    max-width: 770px;
+    height: 10%;
     border: 2px solid #0082A8;
     background-color: whitesmoke;
-    
- 
+    transition: 2s;
+   
 }
 
-#name, #full-name, #alter-egos, #publisher {
-    display: flex;
-    margin: auto;
-    ;
-}
+
 
 #image {
 padding-top: 15px;
 margin: 70px;  
 border-radius: 25% 10%;  
+
 }
 
 footer {
