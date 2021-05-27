@@ -15,9 +15,24 @@
         padding-top: 12px;   
         background-color: #e9463f;
         border-bottom: 12px solid white;
+        width: auto;
     }
+    @media only screen and (max-width: 900px) {
+      main {
+          display: flex;
+          max-width: 900px;
+      }
+      #image {
+        width: 100px;
+        height: auto;
+      }
+
+      
+  }
+  
     form {
       padding-bottom: 10px;
+      width: auto;
   }
   footer {
       font-weight: 900;
@@ -43,6 +58,8 @@
       width: 300px;
       margin:10px  ;
     }
+
+  
     /* ======= CAROUSEL SECTION ======== */
     .carousel-container {
       width: 70%;
