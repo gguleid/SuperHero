@@ -7,7 +7,7 @@ A simple web app for visualizing basic information about comicbook characters
 - HTML5
 - CSS
 - JavaScript/JQuery
-- [SuperHero]()
+- [SuperHero](https://www.superheroapi.com/api.php/2813687215612178/search/)
 
 ## Screenshots
 
@@ -15,17 +15,11 @@ A simple web app for visualizing basic information about comicbook characters
 
 <br>
 </br>
-
 ![screenshot](img/Project-1-v1-wireframe.png)
-
 ### Images of working app
-
 ## Getting Started
-
-[click here](#) to see working app
-
+[click here](https://superdata.netlify.app//) to see working app
 ## Future Enhancements
-
 - Offer comicbook suggestions
-- Show other media apperances
-- Allow a users to save their favorite heros
+- Show other media appearances ()
+- Allow a users to save their favorite heroes
