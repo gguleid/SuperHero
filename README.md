@@ -18,8 +18,8 @@ A simple web app for visualizing basic information about comicbook characters
 ![screenshot](img/Project-1-v1-wireframe.png)
 ### Images of working app
 ## Getting Started
-[click here](https://superdata.netlify.app//) to see working app
+[click here](https://superdata.netlify.app/) to see working app
 ## Future Enhancements
 - Offer comicbook suggestions
-- Show other media appearances ()
-- Allow a users to save their favorite heroes
+- Show other media apperances ()
+- Allow a users to save their favorite hereos

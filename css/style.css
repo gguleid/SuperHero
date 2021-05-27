@@ -1,50 +1,83 @@
-.container {
-    display: inline-grid;
-    justify-content: center;
-    align-items: stretch;   
-    background-color: #64B9E0;
-}
-header {
-    text-align: center;
-    padding-top: 12px;
-    background-color: #E9463F;
-    border-bottom: 12px solid white;
-}
-.character-info {
-    grid-row: 4 / 6;
-    width: 300px;
-    margin: 50px auto;
-    border: 4px solid #0082A8;
-    padding: 20px;
-    text-align: center;
-    font-weight: 900;
-    font-family: arial;
-    position: relative;
-    background-color: whitesmoke;
-}
-.name {
-    grid-row: 1 / 3;
-    align-content: center;
-    text-align: center;
-    font-weight: 900;
-    font-family: arial;
-    position: relative;
-    border: 2px solid #0082A8;
-    background-color: whitesmoke;
-    width: 300px;
-    height: 50px;
-    margin: 50px auto;
-}
-#image  {
-    grid-row: 1 / 3;
-    align-content: space-between;
-    margin: 70px;  
-    border-radius: 25% 10%;  
+* {
+    box-sizing: border-box;
+  }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #64b9e0;
     }
-form {
-    padding-bottom: 10px;
-}
-footer {
-    font-weight: 900;
-    background-color: #E9463F;
-}
+    .container > img {
+      width: 50%;
+    }
+    header {
+        text-align: center;
+        padding-top: 12px;   
+        background-color: #e9463f;
+        border-bottom: 12px solid white;
+    }
+    form {
+      padding-bottom: 10px;
+  }
+  footer {
+      font-weight: 900;
+      background-color: #E9463F;
+  }
+    .container > .name {
+      font-family: 'Montserrat', impact;
+      font-weight: 800;
+      font-size: 2.5em;
+      margin-top: -1%;
+      color: #e3e4e4;
+      text-shadow: 1px 1px #161513;
+      letter-spacing: 2px;
+    }
+    .character-info > #full-name, #aliases, #alightment {
+      font-family: 'Montserrat', impact;
+      font-weight: 200;
+      font-size: 1em;
+      color: #4caaa8;
+      text-shadow: 1px 1px #f2cd99;
+      letter-spacing: 2px;
+      background-color: whitesmoke;
+      width: 300px;
+      margin:10px  ;
+    }
+    /* ======= CAROUSEL SECTION ======== */
+    .carousel-container {
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .carousel-images {
+      width: 80%;
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px #000000;
+    }
+    .carousel-images img:first-of-type {
+      display: block;
+    }
+    .carousel-images img {
+      display: none;
+      width: 100%;
+      border-radius: 10px;
+    }
+    .carousel-button {
+      align-self: center;
+      background: #080807;
+      color: #fffafa;
+      padding: 10px;
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: 1px 1px #f5f1f1;
+    }
+    .carousel-button:hover {
+      cursor: pointer;
+      background: #fffafa;
+      box-shadow: 1px 1px #f5f1f1;
+      color: #080807;
+      border-radius: 25% 10%;
+    }
