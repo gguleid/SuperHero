@@ -12,13 +12,17 @@ A simple web app for visualizing basic information about comicbook characters
 ## Screenshots
 
 ### WireFrames
-
 <br>
-</br>
 
 ![screenshot](img/Project-1-v1-wireframe.png)
+<br>
 
-### Images of working app
+### Image of the API
+![screenshot](img\APISnap.PNG)
+
+### Image of mobile view
+![screenshot](img\MobileView.PNG)
+
 
 ## Getting Started
 
@@ -27,5 +31,7 @@ A simple web app for visualizing basic information about comicbook characters
 ## Future Enhancements
 
 - Offer comicbook suggestions
-- Show other media apperances ()
+- Auto fill search 
 - Allow a users to save their favorite heros
+- Villians only page
+- Compare powerstats and see who would win 
