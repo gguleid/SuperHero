@@ -1,13 +1,13 @@
 # SuperHero Database
 
-A simple web app for visualizing basic information about comicbook characters
+A simple web app for visualizing basic information about comicbook characters.
 
 ## Technologies
 
 - HTML5
 - CSS
 - JavaScript/JQuery
-- [SuperHero](https://www.superheroapi.com/api.php/2813687215612178/search/)
+- [SuperHero](https://www.superheroapi.com)
 
 ## Screenshots
 
