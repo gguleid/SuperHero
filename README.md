@@ -18,10 +18,10 @@ A simple web app for visualizing basic information about comicbook characters
 <br>
 
 ### Image of the API
-![screenshot](img\APISnap.PNG)
+![screenshot](img\APIPic.PNG)
 
 ### Image of mobile view
-![screenshot](img\Mobileview.PNG)
+![screenshot](img\Mobile.PNG)
 
 
 ## Getting Started
