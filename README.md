@@ -32,6 +32,6 @@ A simple web app for visualizing basic information about comicbook characters.
 
 - Offer comicbook suggestions
 - Auto fill search 
-- Allow a users to save their favorite heros
-- Villians only page
+- Allow a users to save their favorite heroes
+- Villains only page
 - Compare powerstats and see who would win 
